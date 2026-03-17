@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Philharmony\Http\Factory\Tests;
 
 use Philharmony\Http\Factory\UriFactory;

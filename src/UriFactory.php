@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Philharmony\Http\Factory;
 
 use Philharmony\Http\Message\Uri;
