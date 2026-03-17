@@ -30,12 +30,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Philharmony\\Http\\Message\\": "src/"
+      "Philharmony\\Http\\Factory\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Philharmony\\Http\\Message\\Tests\\": "tests/"
+      "Philharmony\\Http\\Factory\\Tests\\": "tests/"
     }
   },
   "scripts": {
