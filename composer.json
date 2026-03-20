@@ -21,7 +21,7 @@
     "psr/http-factory": "^1.1",
     "psr/http-message": "^2.0",
     "philharmony/http-enum": "^1.3",
-    "philharmony/http-message": "^1.2"
+    "philharmony/http-message": "^1.3"
   },
   "require-dev": {
     "phpunit/phpunit": "^10.0",
