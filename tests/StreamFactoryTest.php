@@ -56,14 +56,7 @@ class StreamFactoryTest extends TestCase
     public function testCreateStreamFromFileThrowsOnNonExistentFile(): void
     {
         $this->expectException(\RuntimeException::class);
-
-        set_error_handler(fn () => true);
-
-        try {
-            (new StreamFactory())->createStreamFromFile('/non/existent/path.txt');
-        } finally {
-            restore_error_handler();
-        }
+        (new StreamFactory())->createStreamFromFile('/non/existent/path.txt');
     }
 
     public function testCreateStreamFromResourceThrowsOnInvalidResource(): void
