@@ -5,11 +5,12 @@ declare(strict_types=1);
 namespace Philharmony\Http\Factory;
 
 use Philharmony\Http\Message\UploadedFile;
+use Philharmony\Http\PsrExtension\UploadedFileFactoryFromFileInterface;
 use Psr\Http\Message\StreamInterface;
 use Psr\Http\Message\UploadedFileFactoryInterface;
 use Psr\Http\Message\UploadedFileInterface;
 
-class UploadedFileFactory implements UploadedFileFactoryInterface
+class UploadedFileFactory implements UploadedFileFactoryInterface, UploadedFileFactoryFromFileInterface
 {
     public function createUploadedFile(
         StreamInterface $stream,
