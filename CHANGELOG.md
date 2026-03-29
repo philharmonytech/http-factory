@@ -12,6 +12,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - Support for `philharmony/http-psr-extension`
 - `UploadedFileFactoryFromFileInterface` integration
 
+### Changed
+- Standardized README references (`.yml` → `.yaml`) across all packages
+
 ### Tests
 - change `StreamFactoryTest::testCreateStreamFromFileThrowsOnNonExistentFile` remove `error_handler`
 
